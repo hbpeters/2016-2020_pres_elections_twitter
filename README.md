@@ -1,10 +1,10 @@
-## Welcome to GitHub Pages
+## Public Sentiment Towards the 2016 and 2020 Presidential Elections on Twitter
 
 You can use the [editor on GitHub](https://github.com/hbpeters/2016-2020_pres_elections_twitter/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Se
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
