@@ -13,5 +13,4 @@
 
 
 For more details see our project's [GitHub repository](https://github.com/hbpeters/2016-2020_elections_on_twitter).
-
-<!--- just --->
+Project site: [hbpeters.github.io/2016-2020_pres_elections_twitter](https://hbpeters.github.io/2016-2020_pres_elections_twitter/)
