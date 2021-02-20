@@ -14,7 +14,7 @@ Similarly, the following sets of plots show how the tweets' subjectivity scores 
 ![2016 subjectivity](2016_subjectivity_dists.png)
 ![2020 subjectivity](2020_subjectivity_dists.png)
 
-Visually, the distributions of both the polarities and subjectivities seem similar across the different groupings. We conduct permutation testing to determine if there are statistically significant differences between different pairings of distributions.
+Visually, the distributions of both the polarities and subjectivities are similar across the different groupings. We conduct permutation testing to determine if there are statistically significant differences between different pairings of distributions.
 
 ### Permutation Testing
 
