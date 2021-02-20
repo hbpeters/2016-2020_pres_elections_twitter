@@ -10,11 +10,11 @@ The following sets of plots for each year show the distributions of polarities f
 ![2016 polarity](2016_polarity_dists.png)
 ![2020 polarity](2020_polarity_dists.png)
 
-Similarly, the following sets of plots show the distributions of subjectivities for all tweets. 
+Similarly, the following sets of plots show the distributions of subjectivities for the tweets. 
 ![2016 subjectivity](2016_subjectivity_dists.png)
 ![2020 subjectivity](2020_subjectivity_dists.png)
 
-Visually, the distributions of both the polarities and subjectivities seem very similar across our different groupings. We conduct permutation testing to determine if there are statistically significant differences between different pairings of distributions.
+Visually, the distributions of both the polarities and subjectivities seem similar across the different groupings. We conduct permutation testing to determine if there are statistically significant differences between different pairings of distributions.
 
 ### Permutation Testing
 
