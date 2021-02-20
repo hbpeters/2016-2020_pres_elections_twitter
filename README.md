@@ -6,6 +6,7 @@
 ### Identifying the Political Left and Right
 
 ### Sentiment Analysis
+![2016 sentiment](2016_polarity_dists.png)
 
 ### Permutation Testing
 
