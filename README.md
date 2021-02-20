@@ -8,7 +8,7 @@
 ### Sentiment Analysis
 ![2016 sentiment](2016_polarity_dists.png)
 
-![asldfjaf](Screen Shot 2021-02-19 at 4.24.20 PM.png)
+![asldfjaf](Hi.png)
 
 ### Permutation Testing
 
