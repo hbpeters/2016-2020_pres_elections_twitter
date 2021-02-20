@@ -6,7 +6,7 @@
 ### Identifying the Political Left and Right
 
 ### Sentiment Analysis
-The following sets of plots for each year show the distributions of polarities for all tweets, for the left and right subsets we identified, and for the 4 types of dialogue we idenitifed. We can see that the distributions appear very similar, both within the groups for each year and between the two years. 
+The following sets of plots for each year show the distributions of polarities for all tweets, for the left and right subsets we identified, and for the 4 types of dialogue we idenitifed. We can see that the distributions appear very similar, both between the groups for each year and across the two years. 
 ![2016 polarity](2016_polarity_dists.png)
 ![2020 polarity](2020_polarity_dists.png)
 
