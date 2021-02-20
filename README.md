@@ -8,7 +8,6 @@
 ### Sentiment Analysis
 ![2016 polarity](2016_polarity_dists.png)
 ![2020 polarity](2020_polarity_dists.png)
-
 ![2016 subjectivity](2016_subjectivity_dists.png)
 ![2020 subjectivity](2020_subjectivity_dists.png)
 
