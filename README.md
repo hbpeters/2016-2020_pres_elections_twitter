@@ -32,13 +32,18 @@ Visually, the distributions of both the compound and neutrality scores are simil
 
 ### Permutation Testing
 
-To determine if the results of our sentiment analysis were statistically significant, we conducted permutation tests on the differences in mean compound score and neutrality between 2020 and 2016 for different groupings of our data: the data overall; the left and right subsets; and the left-left, left-right, right-left and right-right dialogue subsets. We stated that the null hypothesis was that there was no change in the compound score or neutrality score between the two years. Using the mean as the test statistic, we calculated the observed difference, randomly sampled the two distributions, and found the resulting p values.
+To determine if the results of our sentiment analysis were statistically significant, we conducted permutation tests on the differences in mean compound score and neutrality between 2020 and 2016 for different groupings of our data: the data overall; the left and right subsets; and the left-left, left-right, right-left and right-right dialogue subsets. We stated that the null hypothesis was that there was no change in the compound score or neutrality score between the two years. Using the mean as the test statistic, we calculated the observed difference, randomly sampled the two distributions, and found the resulting p values and interpret them based on a 95% confidence level.
 
-The following plots show the distrbution of the difference of means for the compound scores.
+The following plots show the distribution of the difference of means for the compound scores, with the dotted red lines indicating the observed differences.
 ![Compound Permutation Tests](compound_permutation_tests.png)
 
-Similarly, the following plots how the distrbution of the difference of means for the neutrality scores.
+These results for Compound scores are inconclusive, as the direction of change differs depending on the subset. There is no detectable difference in Compound score for left-leaning tweets (p=0.49), whereas right-leaning tweets were conclusively more positive. As for dialogue, L-L and R-L dialogue became more positive from 2016 to 2020 and L-R and R-R dialogue became more negative.
+
+The following plots show the distribution of the difference of means for the neutrality scores.
 ![Neutrality Permutation Tests](neu_permutation_tests.png)
+
+From these results, we can see that, overall, the 2020 tweets were overwhelmingly more positive and less neutral than the 2016 tweets. With the exception of the L-L dialogue subset, for which the results are inconclusive (p=0.052), tweets used less neutral language in 2020 than in 2016 across all subsets. 
+
 
 # Conclusions
 
