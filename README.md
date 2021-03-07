@@ -18,7 +18,7 @@ After assigning political leanings to some of the users, we identified “dialog
 
 
 ### Sentiment Analysis
-The following sets of plots for each year show the distributions of compound scores for all tweets, for the left and right subsets we identified, and for the 4 types of dialogue we idenitifed. We can see that the distributions appear very similar, both between the groups for each year and across the two years. 
+The following sets of plots for each year show the distributions of compound scores for all tweets, for the left and right subsets we identified, and for the four types of dialogue we identified. We can see that the distributions appear very similar, both between the groups for each year and across the two years. 
 ![2016 polarity](2016_compound_dists.png)
 
 ![2020 polarity](2020_compound_dists.png)
@@ -47,7 +47,7 @@ From these results, we can see that, overall, the 2020 tweets were overwhelmingl
 
 # Conclusions
 
-In conclusion, we found that the 2020 tweets were actually overwhelmingly more positive and less neutral when compared to the 2016 tweets. This disproves our hypothesis which stated that between 2016 and 2020, there will be an overall shift towards a more negative sentiment and less neutrality. Specifcally between left-leaning users who mentioned right-leaning users, there was a noticeable decrease in nuetrality and increase in negative sentiment. We can conclude that there seems to be an increase in political polarization and negative feelings from those who are left-identified to those who are right-identified, and this is reflected in stronger and more politically-charged tweets. 
+In conclusion, we found that the 2020 tweets were actually overwhelmingly more positive and less neutral when compared to the 2016 tweets. This disproves our hypothesis which stated that between 2016 and 2020, there will be an overall shift towards a more negative sentiment and less neutrality. Specifically between left-leaning users who mentioned right-leaning users, there was a noticeable decrease in neutrality and increase in negative sentiment. We can conclude that there seems to be an increase in political polarization and negative feelings from those who are left-identified to those who are right-identified, and this is reflected in stronger and more politically-charged tweets. 
 
 Interestingly, the dialogue between right-leaning users who mention left-leaning users became more positive between the two cycles, indicating that although the left-leaning users might have interacted with the right more aggressively it is not the same vice versa. In addition, the dialogue within left users demonstrated a more positive shift, but that within right users became more negative, indicating that we can’t make conclusive statements in terms of the sentiment shift within a certain political party, but perhaps there was more optimism within the left-leaning users with the new hope that came with the new election cycle, and more worry or pessimism within the right-leaning users. Overall, although there was an general positive shift of tweets regarding the election between the two cycles, we were able to gain interesting insights by examining the dialogue between users and the two groups.
 
