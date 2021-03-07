@@ -18,6 +18,7 @@ After assigning political leanings to some of the users, we identified “dialog
 
 
 ### Sentiment Analysis
+Vader is a sentiment analysis library in Python which uses a dictionary in order to map lexical features to sentiment scores, which are emotion intensities. By summing up the intensity of each word in a text, Vader can obtain the overall text’s sentiment score. Vader is intuitive, in that it understands the implications of capitalization and punctuation. It also will take the usage of negative words such as “not” or “no” into account. Vader has four classes of sentiments that it assigns these scores to. These classes include positive, negative, neutral, and compound. The compound class is an aggregated score of the first three classes and it ranges from -1.0 to +1.0. These compound scores can tell us whether or not our text was expressing a positive, negative, or neutral opinion.
 The following sets of plots for each year show the distributions of compound scores for all tweets, for the left and right subsets we identified, and for the four types of dialogue we identified. We can see that the distributions appear very similar, both between the groups for each year and across the two years. 
 
 ![2016 polarity](2016_compound_dists.png)
@@ -55,9 +56,12 @@ In conclusion, we found that the 2020 tweets were actually overwhelmingly more p
 
 Interestingly, the dialogue between right-leaning users who mention left-leaning users became more positive between the two cycles, indicating that although the left-leaning users might have interacted with the right more aggressively it is not the same vice versa. In addition, the dialogue within left users demonstrated a more positive shift, but that within right users became more negative, indicating that we can’t make conclusive statements in terms of the sentiment shift within a certain political party, but perhaps there was more optimism within the left-leaning users with the new hope that came with the new election cycle, and more worry or pessimism within the right-leaning users. Overall, although there was an general positive shift of tweets regarding the election between the two cycles, we were able to gain interesting insights by examining the dialogue between users and the two groups.
 
+One limitation of our approach is the size of the data that we used. After filtering each of our datasets into subsets, some of these smaller groups had only a fairly small number of tweets left for us to analyze. Also Twitter demogrpahics could have made our results a bit misleading because largest age demographic that is active on Twitter is from 25-34 years old, and more than 50% of people in this age category are generally left-leaning.
+
 
 # Future Work
 
+In the future, it would be interesting to expand our dataset to include the political tweets from a longer time period. Also it might be interesting to include classification in our project so we would be able to predict what group a user might fall in depening on the text of their tweets.
 
 For more details see our project's [GitHub repository](https://github.com/hbpeters/2016-2020_elections_on_twitter)   
 Project site: [hbpeters.github.io/2016-2020_pres_elections_twitter](https://hbpeters.github.io/2016-2020_pres_elections_twitter)
