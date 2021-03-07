@@ -34,8 +34,10 @@ Visually, the distributions of both the compound and neutrality scores are simil
 
 To determine if the results of our sentiment analysis were statistically significant, we conducted permutation tests on the differences in mean compound score and neutrality between 2020 and 2016 for different groupings of our data: the data overall; the left and right subsets; and the left-left, left-right, right-left and right-right dialogue subsets. We stated that the null hypothesis was that there was no change in the compound score or neutrality score between the two years. Using the mean as the test statistic, we calculated the observed difference, randomly sampled the two distributions, and found the resulting p values.
 
+The following plots show the distrbution of the difference of means for the compound scores.
 ![Compound Permutation Tests](compound_permutation_tests.png)
 
+Similarly, the following plots how the distrbution of the difference of means for the neutrality scores.
 ![Neutrality Permutation Tests](neu_permutation_tests.png)
 
 # Conclusions
