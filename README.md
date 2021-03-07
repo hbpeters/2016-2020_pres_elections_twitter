@@ -32,11 +32,15 @@ Visually, the distributions of both the compound and neutrality scores are simil
 
 ### Permutation Testing
 
+To determine if the results of our sentiment analysis were statistically significant, we conducted permutation tests on the differences in mean compound score and neutrality between 2020 and 2016 for different groupings of our data: the data overall; the left and right subsets; and the left-left, left-right, right-left and right-right dialogue subsets. We stated that the null hypothesis was that there was no change in the compound score or neutrality score between the two years. Using the mean as the test statistic, we calculated the observed difference, randomly sampled the two distrobutions, and found the resulting p values.
+
 ![Compound Permutation Tests](compound_permutation_tests.png)
 
 ![Neutrality Permutation Tests](neu_permutation_tests.png)
 
 # Conclusions
+
+In conclusion, we found that the 2020 tweets were actually overwhelmingly more positive and less neutral when compared to the 2016 tweets. This disproves our hypothesis which stated that between 2016 and 2020, there will be an overall shift towards a more negative sentiment and less neutrality. Specifcally between left-leaning users who mentioned right-leaning users, there was a noticeable decrease in nuetrality and increase in negative sentiment. We can conclude that there seems to be an increase in political polarization and negative feelings from those who are left-identified to those who are right-identified, and this is reflected in stronger and more politically-charged tweets. Interestingly, the dialogue between right-leaning users who mention left-leaning users became more positive between the two cycles, indicating that although the left-leaning users might have interacted with the right more aggressively it is not the same vice versa. In addition, the dialogue within left users demonstrated a more positive shift, but that within right users became more negative, indicating that we can’t make conclusive statements in terms of the sentiment shift within a certain political party, but perhaps there was more optimism within the left-leaning users with the new hope that came with the new election cycle, and more worry or pessimism within the right-leaning users. Overall, although there was an general positive shift of tweets regarding the election between the two cycles, we were able to gain interesting insights by examining the dialogue between users and the two groups.
 
 
 # Future Work
